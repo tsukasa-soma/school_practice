@@ -1,0 +1,158 @@
+body {
+    font-family: "Hiragino Kaku Gothick PorN", "メイリオ", "sans-serif";
+}
+
+
+
+/* ヘッダー */
+.logo img {
+    width: 250px;
+}
+
+header .menu {
+    width: 100%;
+    height: 60px;
+    background-color: black;
+}
+
+header .menu ul {
+    list-style-type: none;
+    line-height: 60px;
+}
+
+header .menu ul li {
+    float: left;
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+
+
+/* メインエリア */
+#main_container .contents {
+    float: left;
+    width: 70%;
+    margin-right: 50px;
+}
+
+#main_container h1 {
+    border-left: 4px solid;
+    border-bottom: 2px solid;
+    padding-left: 5px;
+}
+
+
+
+
+
+/* フォーム */
+.main_form {
+    margin: 0px auto;
+    margin-bottom: 10px;
+    background-color: #fbfbfb;
+    border: 3px #ebebeb solid;
+    width: 100%;
+    float: left;
+}
+
+.main_form h3 {
+    margin: 0px auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    border-left: 4px red solid;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+.main_form div {
+    padding: 15px;
+}
+
+.main_form .text,
+textarea {
+    border: 1px solid #dfdfdf;
+    padding: 5px;
+    color: #999;
+    background: #fff;
+}
+
+.main_form .submit {
+    border: 1px solid lightgray;
+    padding: 4px 10px;
+    color: white;
+    background-color: #bfbfbf;
+    border-radius: 5px;
+    border-bottom: solid 2px gray;
+}
+
+
+
+/* 掲示板（投稿内容） */
+.main_board {
+    margin: 0px auto;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    background-color: #fbfbfb;
+    border: 3px #ebebeb solid;
+    width: 100%;
+    padding: 10px;
+    float: left;
+}
+
+.main_board h3 {
+    border-bottom: 2px lightgray solid;
+}
+
+.thread {
+    margin: 5px;
+    padding-bottom: 5px;
+}
+
+.handlename {
+    font-size: 12px;
+}
+
+
+/* サイドエリア */
+.side {
+    float: left;
+    width: 25%;
+    margin-top: 25px;
+}
+
+.side h3 {
+    border-bottom: 2px dotted;
+    padding-top: 9px;
+}
+
+.side ul {
+    list-style-type: none;
+    line-height: 30px;
+    margin-left: -20px;
+    margin-bottom: -10px;
+}
+
+.side li {
+    margin-bottom: 10px;
+}
+
+
+
+/* フッター */
+footer {
+    clear: left;
+    width: 100%;
+    height: 60px;
+    background-color: black;
+}
+
+footer p {
+    color: white;
+    text-align: center;
+    font-size: 10px;
+    line-height: 60px;
+}
